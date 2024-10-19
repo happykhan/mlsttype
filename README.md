@@ -8,7 +8,8 @@ EToKi `MLSType` identities allelic sequences in a queried genome, by comparing i
 ## Calculate cgMLST genotype for a queried genome and print to standard output
 
 ```bash
-python mlstype/MLSType.py -i examples/SAL_QD2830AA_AS.result.fasta.gz -r examples/cgMLST_v2_ref.fasta.gz -k cgmlst_SAL -o STDOUT
+python mlstype/MLSType.py -i examples/SAL_QD2830AA_AS.result.fasta.gz \
+-r examples/cgMLST_v2_ref.fasta.gz -k cgmlst_SAL -o STDOUT
 ```
 
 ### Citation
